@@ -1,0 +1,10 @@
+-d D:\Hardware\FPGA\Demo\nixie_tube_38\impl\gwsynthesis\nixie_tube_38.vg
+-p GW1N-1-QFN48-6
+-pn GW1N-LV1QN48C6/I5
+-cst D:\Hardware\FPGA\Demo\nixie_tube_38\src\nixie_tube_38.cst
+-cfg D:\Hardware\FPGA\Demo\nixie_tube_38\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error

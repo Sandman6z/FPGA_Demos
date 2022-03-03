@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "D:/Hardware/FPGA/fpga_project/src/blink_led.v",
+  "InstLine" : 3,
+  "InstName" : "blink_led",
+  "ModuleFile" : "D:/Hardware/FPGA/fpga_project/src/blink_led.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "blink_led"
+ }
+]

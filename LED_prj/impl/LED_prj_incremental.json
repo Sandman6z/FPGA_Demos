@@ -1,0 +1,14 @@
+[
+ {
+  "InstFile" : "D:/Hardware/FPGA/LED_prj/src/led.v",
+  "InstLine" : 1,
+  "InstName" : "led",
+  "Mode" : 1,
+  "ModuleFile" : "D:/Hardware/FPGA/LED_prj/src/led.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "led",
+  "Process" : 0,
+  "SetMode" : false,
+  "SetProcess" : false
+ }
+]

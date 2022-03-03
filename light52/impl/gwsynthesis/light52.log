@@ -1,0 +1,57 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'D:\Hardware\FPGA\light52\src\light52_pkg.vhdl'
+Analyzing package 'light52_pkg'("D:\Hardware\FPGA\light52\src\light52_pkg.vhdl":34)
+Analyzing package body 'light52_pkg'("D:\Hardware\FPGA\light52\src\light52_pkg.vhdl":303)
+Analyzing VHDL file 'D:\Hardware\FPGA\light52\src\light52_ucode_pkg.vhdl'
+Analyzing package 'light52_ucode_pkg'("D:\Hardware\FPGA\light52\src\light52_ucode_pkg.vhdl":37)
+Analyzing package body 'light52_ucode_pkg'("D:\Hardware\FPGA\light52\src\light52_ucode_pkg.vhdl":202)
+Analyzing VHDL file 'D:\Hardware\FPGA\light52\src\light52_muldiv.vhdl'
+Analyzing entity 'light52_muldiv'("D:\Hardware\FPGA\light52\src\light52_muldiv.vhdl":84)
+Analyzing architecture 'sequential'("D:\Hardware\FPGA\light52\src\light52_muldiv.vhdl":107)
+Analyzing VHDL file 'D:\Hardware\FPGA\light52\src\light52_alu.vhdl'
+Analyzing entity 'light52_alu'("D:\Hardware\FPGA\light52\src\light52_alu.vhdl":71)
+Analyzing architecture 'plain'("D:\Hardware\FPGA\light52\src\light52_alu.vhdl":120)
+Analyzing VHDL file 'D:\Hardware\FPGA\light52\src\light52_cpu.vhdl'
+Analyzing entity 'light52_cpu'("D:\Hardware\FPGA\light52\src\light52_cpu.vhdl":137)
+Analyzing architecture 'microcoded'("D:\Hardware\FPGA\light52\src\light52_cpu.vhdl":170)
+WARN  (EX4319) : Shared variables must be of a protected type("D:\Hardware\FPGA\light52\src\light52_cpu.vhdl":346)
+Analyzing VHDL file 'D:\Hardware\FPGA\light52\src\light52_uart.vhdl'
+Analyzing entity 'light52_uart'("D:\Hardware\FPGA\light52\src\light52_uart.vhdl":192)
+Analyzing architecture 'hardwired'("D:\Hardware\FPGA\light52\src\light52_uart.vhdl":216)
+Analyzing VHDL file 'D:\Hardware\FPGA\light52\src\light52_timer.vhdl'
+Analyzing entity 'light52_timer'("D:\Hardware\FPGA\light52\src\light52_timer.vhdl":124)
+Analyzing architecture 'plain'("D:\Hardware\FPGA\light52\src\light52_timer.vhdl":145)
+Analyzing VHDL file 'D:\Hardware\FPGA\light52\src\light52_mcu.vhdl'
+WARN  (EX4760) : 'obj_code_pkg' is not compiled in library 'work'("D:\Hardware\FPGA\light52\src\light52_mcu.vhdl":112)
+Analyzing entity 'light52_mcu'("D:\Hardware\FPGA\light52\src\light52_mcu.vhdl":115)
+Analyzing architecture 'rtl'("D:\Hardware\FPGA\light52\src\light52_mcu.vhdl":150)
+Processing 'light52_mcu(rtl)'("D:\Hardware\FPGA\light52\src\light52_mcu.vhdl":115)
+Extracting RAM for identifier 'code_bram'("D:\Hardware\FPGA\light52\src\light52_mcu.vhdl":185)
+WARN  (EX4800) : Range is empty (null range)("D:\Hardware\FPGA\light52\src\light52_mcu.vhdl":198)
+Processing 'light52_cpu(microcoded)'("D:\Hardware\FPGA\light52\src\light52_cpu.vhdl":137)
+Extracting RAM for identifier 'bram'("D:\Hardware\FPGA\light52\src\light52_cpu.vhdl":345)
+Processing 'light52_alu(plain)'("D:\Hardware\FPGA\light52\src\light52_alu.vhdl":71)
+Processing 'light52_muldiv(sequential)'("D:\Hardware\FPGA\light52\src\light52_muldiv.vhdl":84)
+Processing 'light52_uart(hardwired=false)(hardwired)'("D:\Hardware\FPGA\light52\src\light52_uart.vhdl":192)
+Processing 'light52_timer(prescaler_value=1000)(plain)'("D:\Hardware\FPGA\light52\src\light52_timer.vhdl":124)
+NOTE  (EX0101) : Current top module is "light52_mcu"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+ERROR (RP0006) : The number(1324(1163 LUTs, 161 ALUs, 0 ROM16s, 0 SSRAMs)) of logic in the design exceeds the resource limit(1152) of current device
+ERROR (RP0001) : The number(44) of ports in the design exceeds the resource limit(41) of current device(GW1N-LV1QN48C6/I5)
+GowinSynthesis finish

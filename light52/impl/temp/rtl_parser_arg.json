@@ -1,0 +1,52 @@
+{
+ "Files" : [
+  {
+   "Library" : "work",
+   "Path" : "D:/Hardware/FPGA/light52/src/light52_alu.vhdl",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Hardware/FPGA/light52/src/light52_cpu.vhdl",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Hardware/FPGA/light52/src/light52_mcu.vhdl",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Hardware/FPGA/light52/src/light52_muldiv.vhdl",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Hardware/FPGA/light52/src/light52_pkg.vhdl",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Hardware/FPGA/light52/src/light52_timer.vhdl",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Hardware/FPGA/light52/src/light52_uart.vhdl",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/Hardware/FPGA/light52/src/light52_ucode_pkg.vhdl",
+   "Type" : "vhdl"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Hardware/FPGA/light52/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

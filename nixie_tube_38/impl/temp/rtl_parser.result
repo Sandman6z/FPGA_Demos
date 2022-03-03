@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "D:/Hardware/FPGA/Demo/nixie_tube_38/src/main.v",
+  "InstLine" : 1,
+  "InstName" : "nixietube",
+  "ModuleFile" : "D:/Hardware/FPGA/Demo/nixie_tube_38/src/main.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "nixietube"
+ }
+]

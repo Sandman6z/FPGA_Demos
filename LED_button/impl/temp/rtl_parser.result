@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "D:/Hardware/FPGA/LED_button/src/easy.v",
+  "InstLine" : 1,
+  "InstName" : "led_ctrl",
+  "ModuleFile" : "D:/Hardware/FPGA/LED_button/src/easy.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "led_ctrl"
+ }
+]

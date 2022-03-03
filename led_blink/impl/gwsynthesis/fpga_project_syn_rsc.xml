@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="blink_led" Register="32" Alu="31" Lut="21"/>

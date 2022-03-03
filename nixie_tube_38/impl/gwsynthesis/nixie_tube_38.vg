@@ -1,0 +1,176 @@
+//
+//Written by GowinSynthesis
+//Product Version "GowinSynthesis V1.9.8"
+//Thu Mar 03 15:37:09 2022
+
+//Source file index table:
+//file0 "\D:/Hardware/FPGA/Demo/nixie_tube_38/src/main.v"
+`timescale 100 ps/100 ps
+module nixietube (
+  a,
+  b,
+  c,
+  d,
+  nixie
+)
+;
+input a;
+input b;
+input c;
+input d;
+output [15:0] nixie;
+wire a_d;
+wire b_d;
+wire c_d;
+wire d_d;
+wire nixie_5_29;
+wire nixie_7_30;
+wire [6:1] nixie_d;
+wire VCC;
+wire GND;
+  IBUF a_ibuf (
+    .O(a_d),
+    .I(a) 
+);
+  IBUF b_ibuf (
+    .O(b_d),
+    .I(b) 
+);
+  IBUF c_ibuf (
+    .O(c_d),
+    .I(c) 
+);
+  IBUF d_ibuf (
+    .O(d_d),
+    .I(d) 
+);
+  OBUF nixie_0_obuf (
+    .O(nixie[0]),
+    .I(GND) 
+);
+  OBUF nixie_1_obuf (
+    .O(nixie[1]),
+    .I(nixie_d[1]) 
+);
+  OBUF nixie_2_obuf (
+    .O(nixie[2]),
+    .I(nixie_d[2]) 
+);
+  OBUF nixie_3_obuf (
+    .O(nixie[3]),
+    .I(nixie_d[3]) 
+);
+  OBUF nixie_4_obuf (
+    .O(nixie[4]),
+    .I(nixie_d[4]) 
+);
+  OBUF nixie_5_obuf (
+    .O(nixie[5]),
+    .I(nixie_5_29) 
+);
+  OBUF nixie_6_obuf (
+    .O(nixie[6]),
+    .I(nixie_d[6]) 
+);
+  OBUF nixie_7_obuf (
+    .O(nixie[7]),
+    .I(nixie_7_30) 
+);
+  OBUF nixie_8_obuf (
+    .O(nixie[8]),
+    .I(GND) 
+);
+  OBUF nixie_9_obuf (
+    .O(nixie[9]),
+    .I(GND) 
+);
+  OBUF nixie_10_obuf (
+    .O(nixie[10]),
+    .I(GND) 
+);
+  OBUF nixie_11_obuf (
+    .O(nixie[11]),
+    .I(GND) 
+);
+  OBUF nixie_12_obuf (
+    .O(nixie[12]),
+    .I(GND) 
+);
+  OBUF nixie_13_obuf (
+    .O(nixie[13]),
+    .I(GND) 
+);
+  OBUF nixie_14_obuf (
+    .O(nixie[14]),
+    .I(GND) 
+);
+  OBUF nixie_15_obuf (
+    .O(nixie[15]),
+    .I(GND) 
+);
+  LUT4 nixie_d_6_s (
+    .F(nixie_d[6]),
+    .I0(c_d),
+    .I1(a_d),
+    .I2(b_d),
+    .I3(d_d) 
+);
+defparam nixie_d_6_s.INIT=16'h671F;
+  LUT4 nixie_d_4_s (
+    .F(nixie_d[4]),
+    .I0(a_d),
+    .I1(c_d),
+    .I2(b_d),
+    .I3(d_d) 
+);
+defparam nixie_d_4_s.INIT=16'h3EE7;
+  LUT4 nixie_d_3_s (
+    .F(nixie_d[3]),
+    .I0(a_d),
+    .I1(c_d),
+    .I2(b_d),
+    .I3(d_d) 
+);
+defparam nixie_d_3_s.INIT=16'hA8EF;
+  LUT4 nixie_d_2_s (
+    .F(nixie_d[2]),
+    .I0(d_d),
+    .I1(c_d),
+    .I2(b_d),
+    .I3(a_d) 
+);
+defparam nixie_d_2_s.INIT=16'hCF71;
+  LUT4 nixie_5_s21 (
+    .F(nixie_5_29),
+    .I0(d_d),
+    .I1(c_d),
+    .I2(b_d),
+    .I3(a_d) 
+);
+defparam nixie_5_s21.INIT=16'h2FFB;
+  LUT4 nixie_d_1_s (
+    .F(nixie_d[1]),
+    .I0(d_d),
+    .I1(a_d),
+    .I2(b_d),
+    .I3(c_d) 
+);
+defparam nixie_d_1_s.INIT=16'hDFFC;
+  LUT4 nixie_7_s22 (
+    .F(nixie_7_30),
+    .I0(a_d),
+    .I1(d_d),
+    .I2(b_d),
+    .I3(c_d) 
+);
+defparam nixie_7_s22.INIT=16'hF74B;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* nixietube */

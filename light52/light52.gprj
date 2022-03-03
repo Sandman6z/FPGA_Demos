@@ -1,0 +1,17 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1N-1" pn="GW1N-LV1QN48C6/I5">gw1n1-004</Device>
+    <FileList>
+        <File path="src/light52_alu.vhdl" type="file.vhdl" enable="1"/>
+        <File path="src/light52_cpu.vhdl" type="file.vhdl" enable="1"/>
+        <File path="src/light52_mcu.vhdl" type="file.vhdl" enable="1"/>
+        <File path="src/light52_muldiv.vhdl" type="file.vhdl" enable="1"/>
+        <File path="src/light52_pkg.vhdl" type="file.vhdl" enable="1"/>
+        <File path="src/light52_timer.vhdl" type="file.vhdl" enable="1"/>
+        <File path="src/light52_uart.vhdl" type="file.vhdl" enable="1"/>
+        <File path="src/light52_ucode_pkg.vhdl" type="file.vhdl" enable="1"/>
+    </FileList>
+</Project>

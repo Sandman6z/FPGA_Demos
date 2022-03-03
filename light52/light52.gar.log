@@ -1,0 +1,20 @@
+********* Archive Project on 2021-10-03 12:09:58 *********
+GOWIN Version: 1.9.8
+Archive file: D:\Hardware\FPGA\light52\light52.gar
+Archive files successfully
+
+
+********* Archived files *********
+D:\Hardware\FPGA\light52\light52.gprj
+D:\Hardware\FPGA\light52\light52.gprj.user
+D:\Hardware\FPGA\light52\src\light52_alu.vhdl
+D:\Hardware\FPGA\light52\src\light52_cpu.vhdl
+D:\Hardware\FPGA\light52\src\light52_mcu.vhdl
+D:\Hardware\FPGA\light52\src\light52_muldiv.vhdl
+D:\Hardware\FPGA\light52\src\light52_pkg.vhdl
+D:\Hardware\FPGA\light52\src\light52_timer.vhdl
+D:\Hardware\FPGA\light52\src\light52_uart.vhdl
+D:\Hardware\FPGA\light52\src\light52_ucode_pkg.vhdl
+
+********* Total 10 files to archive *********
+

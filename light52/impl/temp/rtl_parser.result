@@ -1,0 +1,56 @@
+[
+ {
+  "InstFile" : "D:/Hardware/FPGA/light52/src/light52_mcu.vhdl",
+  "InstLine" : 115,
+  "InstName" : "light52_mcu",
+  "ModuleFile" : "D:/Hardware/FPGA/light52/src/light52_mcu.vhdl",
+  "ModuleLine" : 115,
+  "ModuleName" : "light52_mcu",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Hardware/FPGA/light52/src/light52_mcu.vhdl",
+    "InstLine" : 236,
+    "InstName" : "cpu",
+    "ModuleFile" : "D:/Hardware/FPGA/light52/src/light52_cpu.vhdl",
+    "ModuleLine" : 137,
+    "ModuleName" : "light52_cpu",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Hardware/FPGA/light52/src/light52_cpu.vhdl",
+      "InstLine" : 1828,
+      "InstName" : "alu",
+      "ModuleFile" : "D:/Hardware/FPGA/light52/src/light52_alu.vhdl",
+      "ModuleLine" : 71,
+      "ModuleName" : "light52_alu",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/Hardware/FPGA/light52/src/light52_alu.vhdl",
+        "InstLine" : 575,
+        "InstName" : "muldiv",
+        "ModuleFile" : "D:/Hardware/FPGA/light52/src/light52_muldiv.vhdl",
+        "ModuleLine" : 84,
+        "ModuleName" : "light52_muldiv"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Hardware/FPGA/light52/src/light52_mcu.vhdl",
+    "InstLine" : 343,
+    "InstName" : "uart",
+    "ModuleFile" : "D:/Hardware/FPGA/light52/src/light52_uart.vhdl",
+    "ModuleLine" : 192,
+    "ModuleName" : "light52_uart"
+   },
+   {
+    "InstFile" : "D:/Hardware/FPGA/light52/src/light52_mcu.vhdl",
+    "InstLine" : 381,
+    "InstName" : "timer",
+    "ModuleFile" : "D:/Hardware/FPGA/light52/src/light52_timer.vhdl",
+    "ModuleLine" : 124,
+    "ModuleName" : "light52_timer"
+   }
+  ]
+ }
+]
